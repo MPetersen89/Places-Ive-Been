@@ -37,8 +37,8 @@ _Code don't work good. Yet._
 
 ## Support and contact details
 
-_Hannah Beinstein, hannah.beinstein@gmail.com_
-_Michael Petersen, michael_petersen_email@yahoo.com_
+* _Hannah Beinstein, hannah.beinstein@gmail.com_
+* _Michael Petersen, michael_petersen_email@yahoo.com_
 
 ## Technologies Used
 

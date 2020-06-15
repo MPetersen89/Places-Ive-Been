@@ -7,9 +7,35 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Title</title>
+    <title>Places I've Been</title>
   </head>
   <body>
-    
+    <div class="container">
+      <form id="newLocation">
+        <h1>I Went Somewhere!</h1>
+        <label for="new-destination-name">Name:</label>
+        <input type="text" id="name" title="What is the destination called?"><br>
+        <label for="new-destination-location">Location:</label>
+        <input type="text" id="location" title="Where is it?"><br>
+        <label for="new-destination-landmarks">Landmarks:</label>
+        <input type="text" id="landmarks" title="What landmarks are there?"><br>
+        <label for="new-destination-timeOfYear">Time of Year:</label>
+        <input type="radio" name=timeOfYear id="timeOfYear"> 
+        <label for="spring">Spring</label>
+        <input type="radio" name=timeOfYear id="timeOfYear" value="spring"> 
+        <label for="spring">Summer</label>
+        <input type="radio" name=timeOfYear id="timeOfYear" value="summer"> 
+        <label for="spring">Fall</label>
+        <input type="radio" name=timeOfYear id="timeOfYear" value="fall">
+        <label for="spring">Winter</label>
+        <input type="radio" name=timeOfYear id="timeOfYear" value="winter"><br>
+        <label for="new-destination-notes">Notes:</label>
+        <input type="text" id="notes" title="Anything you want to note about this place?">
+        <button id="submitButton">Submit</button>
+      </form>
+      <div class="allThePlaces">
+        
+      </div>
+    </div>
   </body>
 </html>
